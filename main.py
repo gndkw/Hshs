@@ -36,7 +36,7 @@ except:
     pass
 
 # تنظیمات از محیط
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8810741889:AAEjL5vlgL0mxZeAmRGWtDuU7kKFCKwJQ2M")
+BOT_TOKEN = os.getenv("8810741889:AAEjL5vlgL0mxZeAmRGWtDuU7kKFCKwJQ2M", "8810741889:AAEjL5vlgL0mxZeAmRGWtDuU7kKFCKwJQ2M")
 BOT_USERNAME = os.getenv("BOT_USERNAME", "@rza_Fastgrootz_bot")
 ADMIN_IDS = [int(id.strip()) for id in os.getenv("ADMIN_IDS", "8680457924").split(",") if id.strip()]
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///bot.db")
