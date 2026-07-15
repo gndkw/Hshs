@@ -36,16 +36,16 @@ except:
     pass
 
 # تنظیمات از محیط
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "MyAdvancedBot")
-ADMIN_IDS = [int(id.strip()) for id in os.getenv("ADMIN_IDS", "").split(",") if id.strip()]
+BOT_TOKEN = os.getenv("8945576043:AAEPBEQzmwdupjnfB3WEJBq9m0gHWOQK-p4", "")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "@rza_Fastgrootz_bot")
+ADMIN_IDS = [int(id.strip()) for id in os.getenv("ADMIN_IDS", "8680457924").split(",") if id.strip()]
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///bot.db")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
-XUI_PANEL_URL = os.getenv("XUI_PANEL_URL", "")
-XUI_USERNAME = os.getenv("XUI_USERNAME", "")
-XUI_PASSWORD = os.getenv("XUI_PASSWORD", "")
-REDIS_URL = os.getenv("REDIS_URL", "")
+XUI_PANEL_URL = os.getenv("XUI_PANEL_URL", "https://railway-x3ui-production-fd6d.up.railway.app/panel/")
+XUI_USERNAME = os.getenv("XUI_USERNAME", "admin")
+XUI_PASSWORD = os.getenv("XUI_PASSWORD", "admin")
+REDIS_URL = os.getenv("REDIS_URL", "100")
 ENVIRONMENT = os.getenv("ENVIRONMENT", "development")
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
 
