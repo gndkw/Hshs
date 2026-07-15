@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+گپ#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """
@@ -36,7 +36,7 @@ except:
     pass
 
 # تنظیمات از محیط
-BOT_TOKEN = os.getenv("8945576043:AAEPBEQzmwdupjnfB3WEJBq9m0gHWOQK-p4", "")
+BOT_TOKEN = os.getenv("Token", "8945576043:AAEPBEQzmwdupjnfB3WEJBq9m0gHWOQK-p4")
 BOT_USERNAME = os.getenv("BOT_USERNAME", "@rza_Fastgrootz_bot")
 ADMIN_IDS = [int(id.strip()) for id in os.getenv("ADMIN_IDS", "8680457924").split(",") if id.strip()]
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///bot.db")
