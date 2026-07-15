@@ -7,7 +7,6 @@ httpx==0.25.2
 
 # Database - دیتابیس
 sqlalchemy==2.0.23
-sqlite3
 
 # Security - امنیت
 cryptography==41.0.7
